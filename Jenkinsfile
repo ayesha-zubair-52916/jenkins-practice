@@ -10,7 +10,7 @@ pipeline {
         stage('Pull Code from GitHub') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/ayesha-zubair-52916/jenkins-docker-practice.git'
+                    url: 'https://github.com/ayesha-zubair-52916/jenkins-practice.git'
             }
         }
 
