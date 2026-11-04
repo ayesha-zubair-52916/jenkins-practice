@@ -28,4 +28,4 @@ jobs:
         with:
           context: .
           push: ${{ github.event_name == 'push' }}
-          tags: yourusername/jenkins-practice:latest
+          tags: ayeshazubair/jenkins-practice:workflow-practice
